@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([[1,2],[4,5]])
+b=np.linspace(1,10,4).reshape(2,2)
+c=np.arange(20).reshape(4,5)
+d=np.zeros((2,2))
+e=np.ones((2,2))
+f=np.dot(d,e)
+print(f)
+print(d,e,end='\n')
+print(c)
+print(b*a)
